@@ -31,14 +31,6 @@ public class Controller {
 		
 	}
 	
-	@PutMapping("/update")
-	public Employee updateEmployee (@RequestBody Employee employee ) {
-		return service.updateEmployee(employee);
-		
-}
-	
-	
-	
 	
 	@GetMapping("/setSalary/{id}{salary}")
 	
